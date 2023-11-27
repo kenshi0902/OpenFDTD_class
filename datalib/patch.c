@@ -99,7 +99,7 @@ int main(void){
 
 	// frequency
 
-	ofd_frequency1(freq - 0.5e-9, freq + 0.5e-9, 0);
+	ofd_frequency1(2e-9, 3e-9, 200);
 	ofd_frequency2(freq, freq, 0);
 
 	// solver
