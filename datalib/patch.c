@@ -13,7 +13,7 @@ int main(void){
 	const double lambda = 3e8 / freq;
 	const double dt = 1.6e-3;           // Dielectric thickness
     const double A = 100e-3;            // Dielectric X-size
-	const double B = 130e-3;			// Dielecrtic Y-size
+	const double B = 140e-3;			// Dielecrtic Y-size
 	const double margin1 = 0.5*lambda;
 	const double margin2 = 0.25*lambda;
     const double er = 4.3;
@@ -88,7 +88,7 @@ int main(void){
 
 	// feed
 
-	ofd_feed('Z', 0, -B/2, 1.0e-3, 1, 0, 50);
+	ofd_feed('Z', 0, -60e-3, 1.0e-3, 1, 0, 50);
 
 	// point
 	ofd_point('Z', 0, -20e-3, 1.0e-3, "+Y");
