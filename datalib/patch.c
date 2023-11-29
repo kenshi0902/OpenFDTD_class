@@ -9,7 +9,7 @@
 #include <stdio.h>
 
 int main(void){
-	const double freq = 2.5e9;
+    const double freq = 2.5e9;
 	const double lambda = 3e8 / freq;
 	const double dt = 1.6e-3;           // Dielectric thickness
     const double A = 100e-3;            // Dielectric X-size
