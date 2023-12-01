@@ -13,9 +13,9 @@ int main(void){
     const double lambda = 3e8 / freq;
     const double dt = 1.6e-3;           // Dielectric thickness
     const double A = 100e-3;            // Dielectric X-size
-    const double B = 140e-3;            // Dielecrtic Y-size
+    const double B = 130e-3;            // Dielecrtic Y-size
     const double margin1 = 0.5*lambda;
-    const double margin2 = 0.25*lambda;
+    // const double margin2 = 0.25*lambda;
     const double er = 4.3;
     const double tand = 0.001;
     const double eps0 = 8.854e-12;
@@ -27,7 +27,7 @@ int main(void){
     const double L = 28.564e-3;         // Patch length
     const double w_sl = 1e-3;           // Slit width
     const double w_li = 3e-3;           // Line width
-    const double l_de = 10.8e-3;        // Line depth
+    const double l_de = 10.571e-3;        // Line depth
     // ===============
 
     // initialize
